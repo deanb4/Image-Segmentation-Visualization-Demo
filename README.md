@@ -8,17 +8,6 @@ This project demonstrates a **semantic segmentation** application using a pre-tr
 - **Interactive Slab Placement**: Allows the user to select a quartz slab and place it anywhere on the segmented parts of the image (e.g., on a simulated countertop).
 - **API Integration**: The backend serves an API endpoint for handling image uploads, segmenting the image, and returning the updated segmented image with the quartz slab overlaid.
 - **Overlay Segmentation Map**: The segmented image is overlaid on the original image for visual comparison.
-  
-## Technologies Used
-
-- **Django**: Web framework for the backend.
-- **Django Rest Framework**: For building the API endpoints.
-- **Transformers (Hugging Face)**: For using the Segformer model for semantic segmentation.
-- **Torch**: PyTorch, used for the model's implementation.
-- **OpenCV**: For image processing and manipulation.
-- **Matplotlib**: For visualizing segmentation maps.
-- **Pillow**: For handling image uploads and manipulation.
-- **Dotenv**: For managing environment variables.
 
 ## Installation
 
