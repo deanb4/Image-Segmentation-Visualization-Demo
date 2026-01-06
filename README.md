@@ -79,8 +79,8 @@ Then, install dependencies
 
 ## Usage
 
-1. **Upload an image** to get a segmented image with the overlay.
+1. Upload an image to get a segmented image with the overlay.
 
-2. The model will return a **segmentation map**, which is overlaid onto the original image for visual comparison.
+2. The model will return a segmentation map, which is overlaid onto the original image for visual comparison.
 
-3. Users can **select a slab of quartz** and place it on any part of the segmented image (e.g., on a kitchen countertop or bathroom vanity) to visualize how it would look in that area.
+3. Users can select a slab and place it on any part of the segmented image (e.g., on a kitchen countertop or bathroom vanity) to visualize how it would look in that area.
